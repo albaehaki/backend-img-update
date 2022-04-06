@@ -1,0 +1,28 @@
+GET http://localhost:4000/product
+
+###
+POST http://localhost:4000/product
+Content-Type: application/json
+
+{
+    "title": "kueh lumpur",
+    "price": 2000
+}
+
+###
+GET http://localhost:4000/product/624b9faf463fdb09e096beba
+
+
+###
+PATCH http://localhost:4000/product/624b9faf463fdb09e096beba
+Content-Type: application/json
+
+{
+    "price": 7000
+}
+
+###
+DELETE http://localhost:4000/product/624b9f3a463fdb09e096beb8
+
+
+
